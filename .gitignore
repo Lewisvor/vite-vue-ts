@@ -1,24 +1,65 @@
+# ========================
+# Node.js / pnpm
+# ========================
+node_modules/
+dist/
+.vite/
+pnpm-debug.log*
+.pnpmfile.cjs
+
+# pnpm-lock.yaml 不忽略，保证依赖一致性
+# ========================
+# 系统文件
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# VSCode 配置
+# ========================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ========================
 # Logs
-logs
-*.log
+# ========================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# ========================
+# Environment variables
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# TypeScript
+# ========================
+*.tsbuildinfo
+
+# ========================
+# Vue / SFC / Vite
+# ========================
+dist/
 *.local
+.idea/
+*.log
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# ========================
+# Optional: OS-specific
+# ========================
+# macOS
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
