@@ -17,7 +17,7 @@ Thumbs.db
 # ========================
 # VSCode 配置
 # ========================
-.vscode/
+.vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/launch.json
